@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def visualize_clasters(X, labels):
     unique_labels = np.unique(labels)
     unique_colors = np.random.random((len(unique_labels), 3))

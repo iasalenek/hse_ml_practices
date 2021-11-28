@@ -2,6 +2,7 @@ import numpy as np
 from typing import NoReturn
 import copy
 
+
 def MinMaxScaler(X: np.array, params=None):
     if not params:
         X_min, X_max = [np.min(X, axis=0), np.max(X, axis=0)]
