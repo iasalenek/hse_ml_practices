@@ -1,10 +1,11 @@
-import pytest
 import numpy as np
 
 from sklearn.cluster import KMeans as true_KMeans
 from sklearn.datasets import make_blobs, make_moons, make_swiss_roll
 
 from src.kmeans import KMeans
+
+import pytest
 
 def data_generator(n):
     for i in range(n):
